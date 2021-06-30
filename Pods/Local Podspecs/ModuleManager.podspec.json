@@ -1,0 +1,33 @@
+{
+  "name": "ModuleManager",
+  "version": "0.1.0",
+  "summary": "A short description of ModuleManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/820003039@qq.com/ModuleManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "820003039@qq.com": "guohongqi9010@zto.com"
+  },
+  "source": {
+    "git": "https://github.com/820003039@qq.com/ModuleManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ModuleManager/Classes/**/*",
+  "resource_bundles": {
+    "ModuleManager": [
+      "ModuleManager/Assets/*"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "CTMediator",
+      "source_files": "ModuleManager/Classes/CTMediator.{h,m}"
+    }
+  ]
+}

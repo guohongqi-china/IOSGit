@@ -1,0 +1,29 @@
+PODS:
+  - ModuleA (0.1.0):
+    - ModuleManager
+  - ModuleB (0.1.0)
+  - ModuleManager (0.1.0):
+    - ModuleManager/CTMediator (= 0.1.0)
+  - ModuleManager/CTMediator (0.1.0)
+
+DEPENDENCIES:
+  - ModuleA (from `Module/ModuleA`)
+  - ModuleB (from `Module/ModuleB`)
+  - ModuleManager (from `Module/ModuleManager`)
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: Module/ModuleA
+  ModuleB:
+    :path: Module/ModuleB
+  ModuleManager:
+    :path: Module/ModuleManager
+
+SPEC CHECKSUMS:
+  ModuleA: 49d7401d4d8f920987f3d476649632cfd7be41d9
+  ModuleB: 3852fe87de8872d342b352ae0d4e569eb928ba08
+  ModuleManager: 1442c32350a9a4c4a19bbb7388ab6f2d24d4e5f6
+
+PODFILE CHECKSUM: 1ccdd82ba809377bc5476ee2f60e8c9aac256101
+
+COCOAPODS: 1.10.1

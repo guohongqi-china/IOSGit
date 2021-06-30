@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ModuleDemo-ModuleDemoUITests/Pods-ModuleDemo-ModuleDemoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ModuleB/ModuleB.framework
+${BUILT_PRODUCTS_DIR}/ModuleManager/ModuleManager.framework
